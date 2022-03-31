@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of skills_test is to ...
+The goal of skills_test is to create a practical skills test for a data analyst or intern candidate
 
 
 ---
