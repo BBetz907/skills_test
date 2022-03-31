@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of skills_test is to create a practical skills test for a data analyst or intern candidate
+The goal of skills_test is to create a practical skills test for a data analyst or intern candidate. All data are fake/mock data and do not represent an actual country or USAID effort. They are simply structured in a similar way to the data we use.
 
 
 ---
