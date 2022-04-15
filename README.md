@@ -17,7 +17,7 @@ Task: Often in our work as data analysts, we receive datasets which need to be c
 For this task, we will use mock data for HIV testing and initiation of treatment and pre-exposure prophylaxis (PrEP). The data sets are simplified versions of data types we frequently work with across USAID and PEPFAR. However, the actual data are completely imagined and do not come from a real country context. The data are separated into 2 files:
 Results
 Targets
-These files can be accessed from the following github repository: https://github.com/BBetz907/skills_test/tree/main/Dataout
+These files can be accessed from the following github repository directory: https://github.com/BBetz907/skills_test/tree/main/Dataout
 
 Analytic Tasks and Questions:
 ____________________________________________________________________________
