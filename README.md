@@ -4,19 +4,6 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-<style>
-.nobullet li {
-  list-style-type: none;
-}
-</style>
-
-<div class="nobullet">
-* This list
-* Doesn't have bullets
-</div>
-
-* This list 
-* Is normal
 
 The goal of skills_test is to create a practical skills test for a data analyst or intern candidate. All data are fake/mock data and do not represent an actual country or USAID effort. They are simply structured in a similar way to the data we use.
 
@@ -39,18 +26,18 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 2. PEPFAR data often contain both results and targets, but sometimes these variables come in separate files with slightly different structures and naming conventions. Combine results and targets data sets into one file/data set so that for every indicator, year, and region we can calculate 
 
-achievement = results / targets
+        achievement = results / targets
 
-Hint: You may need to reshape one or more data sets and possibly recode values of a string variable.
+    Hint: You may need to reshape one or more data sets and possibly recode values of a string variable.
 
-What challenges, if any, do you experience in combining the results and targets data sets? 
+    What challenges, if any, do you experience in combining the results and targets data sets? 
 
 ____________________________________________________________________________
 3. Using the results and targets data, what was the percent achievement for the indicator hiv_tests during the year 2021 in the Northern Region? 
 
-Create a table showing percent achievement for the hiv_tests indicator in the Northern region from 2020 to 2022.
+    Create a table showing percent achievement for the hiv_tests indicator in the Northern region from 2020 to 2022.
 
-What visuals would you consider using if you wished to compare achievement for multiple indicators in one region, across multiple years? Explain in a sentence or two. Bonus if you can create and include your desired visual.
+    What visuals would you consider using if you wished to compare achievement for multiple indicators in one region, across multiple years? Explain in a sentence or two. Bonus if you can create and include your desired visual.
 
 ____________________________________________________________________________
 4. Create one or more charts to show how achievement varied by region in 2022 for the indicator hiv_tests.
