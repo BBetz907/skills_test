@@ -37,7 +37,13 @@ targets <- df %>% select(-gender, -hiv_tests, -positive_test_results, -negative_
                             "target_treatment" = "treatment_initiations"),
          region = paste0(region, " Region")) %>%
   group_by(year, region, indicator) %>% summarise(targets = sum(targets, na.rm=TRUE)) %>%
+  mutate(targets = round(targets*runif(1, 0.9, 1.5)), #multiply targets by random number to re-align with results
+         targets = ifelse(region=="Central Region" & year == 2022 & indicator == "hiv_tests", 0, targets)) %>% #recode 1 value
   glimpse()
+
+
+
+help("case_when")
 
 table(targets$indicator, targets$region)
 list(unique(results_long$indicator))
@@ -56,10 +62,12 @@ write_csv(targets, dest_targets)
 
 
 
-#PEPFAR data often come with results and targets, but sometimes they come in separate files with slightly different structures. Merge these two data sources so that for every indicator, we can calculate % achievement (results/targets). (Hint: you may need to reshape one or more data sets and possibly recode values of a string variable). What challenges do you experience in combining results and targets data sets? 
+#1. PEPFAR data often come with results and targets, but sometimes they come in separate files with slightly different structures. Merge these two data sources so that for every indicator, we can calculate % achievement (results/targets). (Hint: you may need to reshape one or more data sets and possibly recode values of a string variable). What challenges do you experience in combining results and targets data sets? 
 
 
-#Using the merged data: What was the percent achievement for the indicator HTS_TST_POS during the year 2021 in Central region? What type of visuals would  you consider using if you wanted to compare achievement for multiple indicators, across multiple years?
+#Using the merged data: What was the percent achievement for the indicator HTS_TST_POS during the year 2021 in Central Region? Create a table to show percent achievement for this indicator and region from 2021 to 2023.
+
+#What type of visuals would  you consider using if you wanted to compare achievement for multiple indicators, across multiple years? Bonus if you can create and include such a visual here.
 
 
 #Create a chart or two to show how HTS_TST_POS achievement changed from FY20 to FY22 at the national level (i.e. irrespective of region). (You may choose to visualize only achievement or your could consider visualizing achievement and indicator results and/or targets.) What types of charts are well-suited for this task of showing trends?
