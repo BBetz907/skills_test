@@ -27,6 +27,7 @@ ____________________________________________________________________________
 achievement = results / targets
 Hint: You may need to reshape one or more data sets and possibly recode values of a string variable
 What challenges, if any, do you experience in combining the results and targets data sets? 
+
 ____________________________________________________________________________
 3a. Using the results and targets data, what was the percent achievement for the indicator hiv_tests during the year 2021 in the Northern Region? 
 
@@ -35,7 +36,7 @@ ____________________________________________________________________________
 3c. What visuals would you consider using if you wished to compare achievement for multiple indicators in one region, across multiple years? Explain in a sentence or two. Bonus if you can create and include your desired visual.
 
 ____________________________________________________________________________
-#4. Create one or more charts to show how achievement varied by region in 2022 for the indicator hiv_tests.
+4. Create one or more charts to show how achievement varied by region in 2022 for the indicator hiv_tests.
 You may choose to visualize only the achievement variable or your could consider visualizing achievement along with the indicator results and/or targets. What types of charts are well-suited for this task? Are there any obvious pros or cons to each approach? 
 Hint: what insights or data might be missed if you only visualize achievement?
 
