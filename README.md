@@ -4,6 +4,20 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+<style>
+.nobullet li {
+  list-style-type: none;
+}
+</style>
+
+<div class="nobullet">
+* This list
+* Doesn't have bullets
+</div>
+
+* This list 
+* Is normal
+
 The goal of skills_test is to create a practical skills test for a data analyst or intern candidate. All data are fake/mock data and do not represent an actual country or USAID effort. They are simply structured in a similar way to the data we use.
 
 
@@ -25,7 +39,7 @@ ____________________________________________________________________________
 ____________________________________________________________________________
 2. PEPFAR data often contain both results and targets, but sometimes these variables come in separate files with slightly different structures and naming conventions. Combine results and targets data sets into one file/data set so that for every indicator, year, and region we can calculate 
 
-| achievement = results / targets
+achievement = results / targets
 
 Hint: You may need to reshape one or more data sets and possibly recode values of a string variable.
 
