@@ -24,8 +24,11 @@ ____________________________________________________________________________
 
 ____________________________________________________________________________
 2. PEPFAR data often contain both results and targets, but sometimes these variables come in separate files with slightly different structures and naming conventions. Combine results and targets data sets into one file/data set so that for every indicator, year, and region we can calculate 
-achievement = results / targets
-Hint: You may need to reshape one or more data sets and possibly recode values of a string variable
+
+  achievement = results / targets
+
+Hint: You may need to reshape one or more data sets and possibly recode values of a string variable.
+
 What challenges, if any, do you experience in combining the results and targets data sets? 
 
 ____________________________________________________________________________
