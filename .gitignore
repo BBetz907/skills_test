@@ -17,6 +17,7 @@
 *.pptx
 solutions.R
 read_transform_export.R
+skills_test.Rproj
 
 #nothing from these folders
 AI/*
