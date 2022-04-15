@@ -16,6 +16,7 @@
 *.twbx
 *.pptx
 solutions.R
+read_transform_export.R
 
 #nothing from these folders
 AI/*
